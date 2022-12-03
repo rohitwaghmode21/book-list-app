@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;900&family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@100;400;500&family=Ubuntu:ital,wght@0,300;0,500;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #f9ca24;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    align-self: center;
+    height: 500px;
+    background-color: #ff7979;
+    width: 400px;
+}
+.form h1{
+    margin-bottom: 50px;
+}
+.main-form input{
+    width: 350px;
+    height: 30px;
+}
+.main-form button{
+    width: 350px;
+    height: 30px;
+    background-color: #30336b;
+    border: 1px solid #30336b;
+    border-radius: 3px;
+    color: white;
+    font-family: "Ubuntu";
+}
+.main-form .input-text{
+    margin-bottom: 50px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.main-form .input-password{
+    margin-bottom: 50px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.main-form button:hover{
+    background-color: #badc58;
+    border: 1px solid #badc58;
+    border-radius: 3px;
+}
